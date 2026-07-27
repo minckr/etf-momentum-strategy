@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             fwd_return   R-squared:                       0.006
+Model:                            OLS   Adj. R-squared:                  0.006
+Method:                 Least Squares   F-statistic:                     6.325
+Date:                Mon, 27 Jul 2026   Prob (F-statistic):             0.0119
+Time:                        11:38:13   Log-Likelihood:                 6623.9
+No. Observations:                4180   AIC:                        -1.324e+04
+Df Residuals:                    4178   BIC:                        -1.323e+04
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0110      0.001      8.047      0.000       0.008       0.014
+signal        -0.0197      0.008     -2.515      0.012      -0.035      -0.004
+==============================================================================
+Omnibus:                      380.295   Durbin-Watson:                   0.938
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2229.893
+Skew:                           0.210   Prob(JB):                         0.00
+Kurtosis:                       6.554   Cond. No.                         5.24
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 3 lags and without small sample correction
